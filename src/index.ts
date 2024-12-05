@@ -2,6 +2,7 @@ import { p1 as dayOneP1, p2 as dayOneP2 } from './days/1';
 import { p1 as dayTwoP1, p2 as dayTwoP2 } from './days/2';
 import { p1 as dayThreeP1, p2 as dayThreeP2 } from './days/3';
 import { p1 as dayFourP1, p2 as dayFourP2 } from './days/4';
+import { run } from './days/5';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -18,3 +19,6 @@ console.log(dayThreeP2());
 console.log('Day Four:');
 console.log(dayFourP1());
 console.log(dayFourP2());
+
+console.log('Day Five:');
+console.log(run());
