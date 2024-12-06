@@ -24,5 +24,7 @@ console.log(dayFourP2());
 console.log('Day Five:');
 console.log(dayFive());
 
+// takes like ~20 secs so commenting out (Brute force lol)
 console.log('Day Six:');
-console.log(daySix());
+console.log([ 5239, 1753 ]);
+// console.log(daySix());
