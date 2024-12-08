@@ -5,6 +5,7 @@ import { p1 as dayFourP1, p2 as dayFourP2 } from './days/4';
 import { run as dayFive } from './days/5';
 import { run as daySix } from './days/6';
 import { p1 as daySevenP1, p2 as daySevenP2 } from './days/7';
+import { day8 } from './days/8';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -31,5 +32,10 @@ console.log([ 5239, 1753 ]);
 // console.log(daySix());
 
 console.log('Day Seven:');
-console.log(daySevenP1());
-console.log(daySevenP2());
+console.log([4122618559853, 227615740238334]);
+// console.log(daySevenP1());
+// console.log(daySevenP2());
+
+console.log('Day Eight:');
+console.log(day8());
+
