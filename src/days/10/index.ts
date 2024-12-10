@@ -26,15 +26,13 @@ export const p1 = () => {
         let moves = [ [r, c] ]
 
         while (moves.length) {
-          // console.log(moves);
-          const [rr, cc] = moves.shift();
+          const [rr, cc] = moves.shift(); // BFS
 
           if (SEEN.has(`${rr},${cc}`)) continue;
           SEEN.add(`${rr},${cc}`);
           if (grid[rr][cc] === 9) p1++;
 
           const next = getAdjCells(grid, rr, cc);
-          // console.log('next', next);
           next.forEach(([r, c]) => moves.push([r, c]));
         }
       }
@@ -49,8 +47,16 @@ export const p2 = () => {
 
   for (let r = 0; r < R; r++) {
     for (let c = 0; c < C; c++) {
-      if (grid[r][c] === 0) {
+      if (grid[r][c] === 0) { // DFS
+        let moves = [ [r, c] ]
 
+        while (moves.length) {
+          const [rr, cc] = moves.pop(); // DFS
+          if (grid[rr][cc] === 9) p2++;
+
+          const next = getAdjCells(grid, rr, cc);
+          next.forEach(([r, c]) => moves.push([r, c]));
+        }
       }
     }
   }
