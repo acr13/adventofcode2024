@@ -47,7 +47,7 @@ export const p2 = () => {
 
   for (let r = 0; r < R; r++) {
     for (let c = 0; c < C; c++) {
-      if (grid[r][c] === 0) { // DFS
+      if (grid[r][c] === 0) {
         let moves = [ [r, c] ]
 
         while (moves.length) {
