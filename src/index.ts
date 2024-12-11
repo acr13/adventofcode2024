@@ -7,7 +7,8 @@ import { run as daySix } from './days/6';
 import { p1 as daySevenP1, p2 as daySevenP2 } from './days/7';
 import { day8 } from './days/8';
 import { p1 as dayNineP1, p2 as dayNineP2 } from './days/9';
-import { p1 as dayTenP1 , p2 as dayTenP2 } from './days/10';
+import { p1 as dayTenP1 ,p2 as dayTenP2 } from './days/10';
+import { p1 as dayElevenP1, p2 as dayElevenP2 } from './days/11';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -49,3 +50,7 @@ console.log([6323641412437, 6351801932670]);
 console.log('Day 10:');
 console.log(dayTenP1());
 console.log(dayTenP2());
+
+console.log('Day 11:');
+console.log(dayElevenP1());
+console.log(dayElevenP2());
