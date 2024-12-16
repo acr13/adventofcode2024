@@ -13,6 +13,7 @@ import { day12 } from './days/12';
 import { p1 as dayThirteenP1, p2 as dayThirteenP2 } from './days/13';
 import { day14 } from './days/14';
 import { day15 } from './days/15';
+import { day16 } from './days/16';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -71,3 +72,6 @@ console.log(day14());
 
 console.log('Day 15:');
 console.log(day15());
+
+console.log('Day 16:');
+console.log(day16());

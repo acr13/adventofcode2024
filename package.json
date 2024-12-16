@@ -14,5 +14,8 @@
     "@types/node": "^22.2.0",
     "tsx": "^4.17.0",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.1"
   }
 }
