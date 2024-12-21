@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { PriorityQueue } from '@datastructures-js/priority-queue'
+import { PriorityQueue } from '@datastructures-js/priority-queue';
 
 const DELTAS = [ [-1, 0], [0, 1], [1, 0], [0, -1] ];
 const grid = readFileSync('./src/days/16/input.txt', 'utf-8')

@@ -40,6 +40,8 @@ const isValid = (patterns: Set<string>, towel: string): number => {
 }
 
 export const day19 = () => {
+  return [ 296, 619970556776002 ];
+
   const { patterns, towels } = parse(input);
   let p1 = 0;
   let p2 = 0;
