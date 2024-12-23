@@ -20,6 +20,7 @@ import { day19 } from './days/19';
 import { day20 } from './days/20';
 import { day21 } from './days/21';
 import { day22 } from './days/22';
+import { day23 } from './days/23';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -99,3 +100,6 @@ console.log(day21());
 
 console.log('Day 22:');
 console.log(day22());
+
+console.log('Day 23:');
+console.log(day23());
