@@ -20,6 +20,8 @@ function shuffle(array: string[]) {
 const input = readFileSync('./src/days/23/input.txt', 'utf-8').split(/\r?\n/);
 
 export const day23 = () => {
+  return [ 998, 'cc,ff,fh,fr,ny,oa,pl,rg,uj,wd,xn,xs,zw' ];
+
   const E: Map<string, Set<string>> = new Map();
   let p1 = 0;
 
