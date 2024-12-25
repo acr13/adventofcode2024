@@ -22,6 +22,7 @@ import { day21 } from './days/21';
 import { day22 } from './days/22';
 import { day23 } from './days/23';
 import { day24 } from './days/24';
+import { day25 } from './days/25';
 
 console.log('Day One:');
 console.log(dayOneP1());
@@ -107,3 +108,6 @@ console.log(day23());
 
 console.log('Day 24:');
 console.log(day24());
+
+console.log('Day 25:');
+console.log(day25());
